@@ -10,13 +10,13 @@
 #first
 
 print("Welcome to the tip calculator.")
-total_bill = input("what was the total bill? $")
+total_bill = float(input("what was the total bill? $"))
 
-tip_percentage = input("What percentage tip would you like to give? 10, 12, or 15? ")
+tip_percentage = int(input("What percentage tip would you like to give? 10, 12, or 15? "))
 
-head_counter = input("How many people to split the bill? ")
+head_counter = int(input("How many people to split the bill? "))
 
-except_tip = float(total_bill) + (float(total_bill) * (float(tip_percentage)/100))
+except_tip = total_bill + (total_bill * (tip_percentage/100))
 
 result = round((except_tip / int(head_counter)) , 2)
 print(f"${result}")

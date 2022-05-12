@@ -20,8 +20,8 @@
 #   print(f"Your final bill is ${bill}.")
   
 
-else:
-  print("Sorry, you have to grow taller before you can ride.")
+# else:
+#   print("Sorry, you have to grow taller before you can ride.")
 
 
   # 🚨 Don't change the code below 👇

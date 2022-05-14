@@ -1,7 +1,7 @@
 
 
-fruit = ["apple","banana","orange"]
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 
-fruit.extend(["Melon", "cherry"])
-
-print(fruit) #['apple', 'banana', 'orange', 'Melon', 'cherry']
+fruits.sort()
+print(fruits)
+print(fruits.count('apple'))

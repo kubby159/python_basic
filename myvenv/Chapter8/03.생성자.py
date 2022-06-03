@@ -24,3 +24,5 @@ print(goblin.get_health())
 wolf = Monster(1500,200,350) # __init__ 을 가장 먼저 실행시킴
 wolf.decrease_health(300)
 print(wolf.get_health())
+
+

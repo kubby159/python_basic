@@ -32,7 +32,9 @@ class Dragon(Monster):
     def __init__(self, name, health, attack):
         super().__init__(name,health,attack) #부모의 생성자를 불러옴.
         self.skills = ("불뿜기","꼬리치기","날개치기")
-
+    
+    def get_health(self):
+        return self.health
 
     def move(self): # 메서드 오버라이딩
         print(f"[{self.name}] 날기")
@@ -51,5 +53,6 @@ shark.move()
 print(shark.max_num)
 dragon = Dragon("드래곤", 8000, 800)
 dragon.move()
+print(dragon.get_health())
 dragon.skill()
 print(dragon.max_num)

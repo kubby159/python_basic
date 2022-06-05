@@ -17,7 +17,7 @@ class Post:
 
     def add_view_count(self):
         self.view_count+=1
-        print(f'조회수 : {self.view_count}')
+        
 
     def set_post(self, id,title,content,view_count):
         self.id = id
